@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ferryman</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Ferryman</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <!-- NOTE BLOG is linked to blog.html-->
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+      <!-- This is if we want a another link?
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+      -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/post-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Week 3 - Group Meeting</h1>
+            <h2 class="subheading">Finalising Project Specifications</h2>
+            <span class="meta">Posted by
+              <a href="about.html#Gigi">Gigi</a>
+              on 22 April, 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2 class="section-heading">Meeting on Discord (1230PM, 22/04/2020)</h2>
+          <p><b>1230PM - Agenda Today. (1 Hour 7 Minutes)</b></p>
+          <ul>
+            <li>Further discuss about more our functionalities</li>
+            <li>Is a forum required?</li>
+            <li>Which methodology would we be using?</li>
+            <li>The platform we intend to publish on</li>
+          </ul>
+          <p>1237PM - We welcome out new team member and brief him on our progress and ask him if he had any functions he plans to add on. We further discuss the requirements of the application.</p>
+          <ul>
+            <li>We discuss whether a forum is needed or not on our platform. And decided to continue with an in-app messaging system.</li>
+            <li>The platform should be accessible from both phone and computer.</li>
+            <li>-	The objective of the application is to allow people who need to share a car ride to the university and to allow drivers and passengers to easily find one another by coordinating their pickup and travel time.</li>
+            <li>-	Driver propose the pickup with passenger. Similar to Grab.</li>
+            <li>-	There was a need to implement a messaging system into the platform instead of getting the contact of another party.</li>
+          </ul>
+          <p>1250PM - Reviewing out list of functionalities</p>
+          <p><b>Only people and the staff of SIM can register </b> - How can we verify that? During the registration phase, Student number and SIM ID/Staff ID have to be used to verify that they are a student.</p>
+          <p><b>“Book now” Function</b></p>
+          <p>For Auto app ride confirmation, does our app auto match driver and passenger? </p>
+          <pre>Passengers do not get to pick their drivers.</pre>
+          <p>If a passenger were to send in their timing, The driver will be the one accepting. (A proximity check to passengers)</p>
+          <p>In order to do live tracking, passengers and drivers need to allow their location to be tracked by the application.</p>
+          <p><b>Hitch Function</b> - Passenger and Driver would need to communicate with each other; thus we need to publish our available or scheduled timing.</p>
+          <p><b>Fast return booking trip</b> - When the ride ends, we will have a pop-up option for both driver and passenger to book a return trip. “Do you want to book a return trip?” This message would pop up once the initial trip ends.</p>
+          <p><b>Number of passengers</b> - We need to allow more than one passenger and as long as the account holder is an SIM staff or student, friends and affiliates of the account holder can pool together.</p>
+          <p><b>Before booking/confirming a ride (Ride confirmation)</b> - Will there be a popup option for subsequent passengers to inform him/her that they would be sharing with another passenger going the same way?
+A reminder or notification would notify the subsequent passenger would like to cancel or not if they were to be sharing.</p>
+          <p><b>Different payment methods (Credit card KIV)</b> - Pay through app or allow them to settle themselves. If we are going to store the card information, we can process the payment on our side. Or use PayNow/PayLah/Cash.
+We decided not to do an in-app wallet, and we settled on personal payment between the passenger and driver.</p>
+          <p><b>Storing Card Information (KIV)</b> - Since we intend to do Cash/PayLah/PayNow, we do not need to pay via card. </p>
+          <p><b>Encryption for sensitive information</b> - We need this function to protect the user.</p>
+          <p><b>Account management</b> - Ride History (Price, Distance, Location and the Driver) – Passenger</p>
+          <p><b>Pet/Baby ok?</b> - This would be hard to implement; driver and passengers can message themselves for other arrangements if required.</p>
+          <p><b>Point System</b> - A reward system to be implemented to encourage and reward customers who uses the application frequently.</p>
+          <p><b>Favourite Location</b> - Auto-complete their location from destination or pickup point (School/home).</p>
+          <p><b>Pick up/drop off point pin & Additional Stops</b> - We decide not to allow passengers to get additional stops as it would be inconvenient for the driver, passengers only get to choose one location.</p>
+          <p><b>Notification system & Driver can accept and reject</b> - Passengers can only cancel or accept rides.</p>
+          <p><b>Ratings (smiley or sad face)</b> - We decided not to have a comment or review box. However, a report button would be a faster and more straightforward method if there were to have any complaints. </p>
+          <p><b>Profile for both passenger and driver</b> - Should we show their name, school and their course? (This would be a breach of privacy and show too much information). Thus, we decided to only show their name and face on their profile. Registration would require you to take a selfie or picture of yourself.</p>
+          <p><b>Status of scheduled trip </b> - This would be needed to check if the ride is confirmed or still pending (searching for a driver).</p>
+          <p><b>Trip cancellation/Cancellation Fees (KIV) & Customer Support</b> - If there were to be any emergencies, there would be an in-app button to just call 999. If this system is implemented, we will hire someone to do customer support during office hour timing.</p>
+          <br>
+          <p><b>1321PM – What methodology will we be using?</b></p>
+          <p>Agile or Waterfall?
+We discussed that the Waterfall method is rigid and Agile would better, because it is flexible and allows us to adapt to situation if there were to be any changes, we can go ahead and use Taiga to create our user stories and planning as well. </p>
+          <p><b>1324PM – The platform we intend to publish on</b></p>
+          <p>We need to do 3 different apps (Apple, Android and Computer) based on the project requirement that the application must be on available on both Computer and Mobile phones.
+These are 3 different platforms, how are we going to display our data and functions? </p>
+          <p><b>1326PM – Languages/softwares used</b></p>
+          <p>Who will be doing the data base? Something we will have to plan and discuss later on.
+Anthony will be doing front-end of the application. </p>
+          <ul>
+            <li><b>Web App: </b>Python – Flask</li>
+            <li><b>Apple Android App: </b>React, Node JS</li>
+            <li><b>Database: </b>MongoDB</li>
+            <li><b>Agile/user stories: </b>Taiga.io</li>
+          </ul>
+          <p><b>Questions:</b></p>
+          <p>The pricing, the purpose of carpool – is environment > money making? (Business model portion)</p>
+          <p>Website has lesser things to worry about, what happens if we have a lot of data (the integration between all 3 platforms)? – Platform we intend to publish on. </p>
+          <p>Project Requirement Documentation – 2nd May</p>
+          <b>We are required to submit our week 3 weekly reflection to our supervisor by this week.</b>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
